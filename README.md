@@ -31,3 +31,9 @@ After...
 - The to implement it is removing the URL from the Feign
     - Then If there is more than one instance of the microservice running, the Spring Clouyd Load Balancer will check with Eureka the number of instances and will balance the load of requests.
 ![img_3.png](img_3.png)
+
+# Spring Cloud Gateway to use the same common configuration between microservices
+- In a typical Microservices architecture there are a lot of microservices (hundreds, thousands)
+- A lot of them share common configurations
+- Spring Cloud API Gateway does that work for you
+  - In Earlier versions of Spring was called Zuul
