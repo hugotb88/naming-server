@@ -21,5 +21,13 @@ services:
     networks:
       - currency-network
 
+  currency-conversion:
+    image: hugotb88/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8100:8100"
+    networks:
+      - currency-network
+
 networks:
   currency-network:

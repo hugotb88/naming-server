@@ -237,7 +237,7 @@ Then run a Maven build with the following goals
 
 Then you can use your image using the following command:
 
-``docker run -p 8000:8000 hugotb88/mmv2-currency-exchange-service:0.0.1-SNAPSHOT``
+``docker run -p 8761:8761 hugotb88/mmv2-naming-server:0.0.1-SNAPSHOT``
 
 ![](img_15.png)
 
